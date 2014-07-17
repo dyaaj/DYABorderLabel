@@ -1,0 +1,9 @@
+target 'DYABorderLabel', :exclusive => true do
+  pod "DYABorderLabel", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DYABorderLabel", :path => "../"
+
+  pod 'Kiwi'
+end
